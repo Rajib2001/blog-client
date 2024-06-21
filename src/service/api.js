@@ -1,7 +1,7 @@
 import axios from "axios";
 import { API_NOTIFICATION_MESSAGE ,SERVICE_URLS} from "../constants/config";
 import { getAccessToken,getType } from "../utills/common-utill";
-const API_URL="http://localhost:8001";
+const API_URL="https://blog-server-sepia-rho.vercel.app/";
 
 
 const axiosInstance=axios.create({
